@@ -7,7 +7,15 @@
  */
 
 ?>
-		
+<footer class="py-3 my-4 border-top">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center ">
+        <?php 
+            get_template_part( 'template-parts/footer/footer-copyright' );
+
+            get_template_part( 'template-parts/footer/footer-social' );
+        ?>
+    </div>
+</footer>
 <?php wp_footer(); ?>
 
 </body>
