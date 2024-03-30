@@ -16,7 +16,10 @@
 
 get_header(); ?>
 
-<?php 
-_e( 'A Static Homepage', 'wp-default' );
-
+<div class="container">
+    <?php get_template_part( 'template-parts/banner/banner-slider' ); ?>
+    <?php get_template_part( 'template-parts/banner/banner-featured' ); ?>
+    <?php get_template_part( 'template-parts/frontpage/frontpage-products' ); ?>
+</div>
+<?php
 get_footer();
