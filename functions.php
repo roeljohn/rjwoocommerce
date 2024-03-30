@@ -4,7 +4,10 @@
  * WordPress site. You can use it to call WordPress functions and to define your own functions.
  */
 
- 
+ /**
+* General Settings
+*/
+require_once( __DIR__ . '/functions/general/import_general_settings.php');
  
 /**
 * Enqueue scripts and styles
