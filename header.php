@@ -15,3 +15,18 @@
 </head>
 
 <body <?php body_class(); ?>>
+<header class="p-3 mb-3 border-bottom">
+    <div class="container">
+		<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+			<?php 
+				get_template_part( 'template-parts/header/header-logo' );
+
+				get_template_part( 'template-parts/header/header-nav' );
+
+				get_template_part( 'template-parts/header/header-search' );
+
+				get_template_part( 'template-parts/header/header-profile' );
+			?>
+		</div>
+    </div>
+</header>
