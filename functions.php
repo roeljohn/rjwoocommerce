@@ -15,9 +15,6 @@ require_once( __DIR__ . '/functions/general/import_general_settings.php');
 require_once( __DIR__ . '/functions/enqueue/import_css_js.php');
 
 /**
-* Add woocommerce support
+* Import Admin Settings
 */
-function customtheme_add_woocommerce_support(){
-    add_theme_support( 'woocommerce' );
-}
-add_action( 'after_setup_theme', 'customtheme_add_woocommerce_support' );
+require_once( __DIR__ . '/functions/settings/import_settings.php');
