@@ -18,3 +18,8 @@ require_once( __DIR__ . '/functions/enqueue/import_css_js.php');
 * Import Admin Settings
 */
 require_once( __DIR__ . '/functions/settings/import_settings.php');
+
+/**
+* Import Post Type
+*/
+require_once( __DIR__ . '/functions/post-type/banner.php');
