@@ -17,8 +17,8 @@
 get_header(); ?>
 
 <div class="container">
-    <?php get_template_part( 'template-parts/banner/banner-slider' ); ?>
-    <?php get_template_part( 'template-parts/banner/banner-featured' ); ?>
+    <?php get_template_part( 'template-parts/frontpage/frontpage-banner-slider' ); ?>
+    <?php get_template_part( 'template-parts/frontpage/frontpage-banner-featured' ); ?>
     <?php get_template_part( 'template-parts/frontpage/frontpage-products' ); ?>
 </div>
 <?php
