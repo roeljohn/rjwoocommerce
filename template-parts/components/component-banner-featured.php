@@ -6,7 +6,7 @@
 
 <div class="col-md-4">
 <?php if ( $featured_link ) { ?>
-<a href="<?php echo esc_html( $featured_link ); ?>">
+<a class="link-offset-2 link-underline link-underline-opacity-0 text-black" href="<?php echo esc_html( $featured_link ); ?>">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
         <?php if ( $featured_heading ) { ?>

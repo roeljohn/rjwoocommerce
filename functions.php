@@ -23,3 +23,8 @@ require_once( __DIR__ . '/functions/settings/import_settings.php');
 * Import Post Type
 */
 require_once( __DIR__ . '/functions/post-type/banner.php');
+
+/**
+* Woocommerce
+*/
+require_once( __DIR__ . '/functions/woocommerce/woocommerce-navigation.php');

@@ -23,7 +23,7 @@
 
 				get_template_part( 'template-parts/header/header-nav' );
 
-				get_template_part( 'template-parts/header/header-search' );
+				get_template_part( 'template-parts/header/header-cart' );
 
 				get_template_part( 'template-parts/header/header-profile' );
 			?>
