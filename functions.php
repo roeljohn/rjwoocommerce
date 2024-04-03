@@ -27,5 +27,6 @@ require_once( __DIR__ . '/functions/post-type/banner.php');
 /**
 * Woocommerce
 */
-require_once( __DIR__ . '/functions/woocommerce/import_woocommerce-navigation.php');
-require_once( __DIR__ . '/functions/woocommerce/import_woocommerce-my-account-title.php');
+require_once( __DIR__ . '/functions/woocommerce/import-woocommerce-navigation.php');
+require_once( __DIR__ . '/functions/woocommerce/import-woocommerce-my-account-title.php');
+require_once( __DIR__ . '/functions/woocommerce/import-woocommerce-form-class.php');
