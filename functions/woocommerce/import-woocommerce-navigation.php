@@ -4,15 +4,15 @@
 add_filter( 'woocommerce_account_menu_items', 'custom_account_menu_html', 10, 1 );
 
 function custom_account_menu_html( $items ) {
-    unset( $items[ 'edit-address' ] ); // Addresses
-    unset( $items[ 'dashboard' ] ); // Remove Dashboard
-    unset( $items[ 'payment-methods' ] ); // Remove Payment Methods
-    unset( $items[ 'orders' ] ); // Remove Orders
-    unset( $items[ 'downloads' ] ); // Disable Downloads
-    unset( $items[ 'edit-account' ] ); // Remove Account details tab
-    unset( $items[ 'customer-logout' ] ); // Remove Logout link
+    //unset( $items[ 'edit-address' ] ); // Addresses
+    //unset( $items[ 'dashboard' ] ); // Remove Dashboard
+    //unset( $items[ 'payment-methods' ] ); // Remove Payment Methods
+    //unset( $items[ 'orders' ] ); // Remove Orders
+    //unset( $items[ 'downloads' ] ); // Disable Downloads
+    //unset( $items[ 'edit-account' ] ); // Remove Account details tab
+    //unset( $items[ 'customer-logout' ] ); // Remove Logout link
     // Modify each menu item within the loop
-    //$modified_items = array(); // Create a new array to store modified items
+    $items = array(); // Create a new array to store modified items
 
     //foreach ($items as $endpoint => $label) {
         
