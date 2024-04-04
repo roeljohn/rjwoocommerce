@@ -12,7 +12,7 @@ $product_url = esc_url( add_query_arg( 'add-to-cart', $product_id, get_permalink
 // Get image
 $product_image = get_the_post_thumbnail_url( $product_id, 'full' ); 
 ?>
-<div class="col mb-5">
+<li <?php wc_product_class( '', $args ); ?>>
     <a href="<?php the_permalink();?>">
         <div class="card h-100">
             <!-- Sale badge-->
@@ -45,4 +45,4 @@ $product_image = get_the_post_thumbnail_url( $product_id, 'full' );
             </div>
         </div>
     </a>
-</div>
+</li>
