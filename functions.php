@@ -30,3 +30,4 @@ require_once( __DIR__ . '/functions/post-type/banner.php');
 require_once( __DIR__ . '/functions/woocommerce/import-woocommerce-navigation.php');
 require_once( __DIR__ . '/functions/woocommerce/import-woocommerce-my-account-title.php');
 require_once( __DIR__ . '/functions/woocommerce/import-woocommerce-form-class.php');
+require_once( __DIR__ . '/functions/woocommerce/import-woocommerce-single-product.php');

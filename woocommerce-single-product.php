@@ -59,3 +59,12 @@ if (is_a($product, 'WC_Product')) {
         </div>
     </div>
 </section>
+<section class="py-5 bg-light">
+    <div class="container px-4 px-lg-5">
+        <?php 
+            $product_id = get_the_ID();
+            // Get related products
+            $related_products = wc_get_related_products($product_id);
+            get_template_part('woocommerce-related-product', '', $related_products); ?>
+    </div>
+</section>

@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<div id="main" class="container">
     <?php 
         if ( is_shop() ) {
             get_template_part('/woocommerce-shop');
@@ -9,5 +8,4 @@
             woocommerce_content(); 
         }
     ?>
-</div>
 <?php get_footer(); ?>
